@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Care | Vtech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="section">
+        <header>
+            <img class="logo" src="images/blue logo.png" alt="">
+            <div class="menu-toggle" onclick="toggleMenu()"><i class="ri-menu-line"></i></div>
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#about">About Us</a></li>
+                    <li class="dropdown-container has-dropdown">
+                        <a class="dropMenu-head dropdown-toggle" href="#">Services<ion-icon name="caret-down-outline"></ion-icon></a>
+                        <ul class="dropdown">
+                            <li><a href="#blog">Consultation</a></li>
+                            <li><a href="#faq">Pediatrics</a></li>
+                            <li><a href="#careers">Immunizations</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#contact">Testimonials</a></li>
+                    <li class="dropdown-container has-dropdown">
+                        <a class="dropMenu-head dropdown-toggle" href="#">More Options<ion-icon name="caret-down-outline"></ion-icon></a>
+                        <ul class="dropdown">
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li class="dropdown-container user has-dropdown">
+                    <a class="dropMenu-head dropdown-toggle" href="#"><i class="ri-user-fill"></i></a>
+                    <ul class="dropdown">
+                        <li><button class="primary-btn">Login</button></li>
+                        <li><button class="secondary-btn">Sign up</button></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div class="auth-buttons">
+                <button class="primary-btn">Login</button>
+                <button class="secondary-btn">Sign up</button>
+            </div>
+
+        </header>
+    </section>
+    <section class="hero section">
+        <div class="hero-content">
+            <p class="revitalize">Revitalize</p>
+            <h1>Transform <span>Your Health</span></h1>
+            <p>Your health is our priority. We provide the best medical services for you and your family.</p>
+            
+            <div class="hero-btn">
+                <button class="primary-btn">Get Started</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+            <div class="facts">
+                <div>
+                    <h3>13+</h3>
+                    <p>Years of experience</p>
+                </div>
+                <div class="facts-div">
+                    <h3>3.6M+</h3>
+                    <p>Trusted by patients</p>
+                </div>
+                <div class="facts-div">
+                    <h3>85+</h3>
+                    <p>Professional Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.jpeg" alt="Hero Image">
+            <div class="doctor">
+                <p class="first-p">Best Services</p>
+                <hr>
+                <div class="doctor-div">
+                    <i class="ri-earth-fill"></i>
+                    <div>
+                        <p class="doctor-name">Dr. Valentine Attoh</p>
+                        <p class="doctor-branch">Vtech Hospital</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer-section section">
+        <div class="offer-header">
+            <div class="offer-header-left">
+                <h2>We offer a wide range of services to meet your needs</h2>
+            </div>
+            <div class="offer-header-right">
+                <p class="figure">25K+</p>
+                <p>Distributed services</p>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="hero-image">
+                <img src="images/health-trend.jpeg" alt="Hero Image">
+            </div>
+            <div class="hero-content">
+                <p class="revolutionary">Revolutionary</p>
+                <h2>Our services are designed to provide the best healthcare services</h2>
+                <p>We are committed to providing the best healthcare services tailored to your needs. With a team of experienced medical professionals and state-of-the-art technology, we ensure that every aspect of your care delivered with the utmost care and exceptional expertise. From initial consultaion to follow-up treatment.</p>
+                
+                <div class="hero-btn">
+                    <button class="primary-btn">Book Now</button>
+                    <button class="secondary-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discover section">
+        <h2>Discover the power of Our Services</h2>
+        <p>Explore a variety of tailored services aimed at enhancing your overall health and wellness</p>
+    </section>
+
+    <section class="discover-grid-container section">
+        <div class="grid-card" id="first-child">
+            <i class="ri-hospital-line"></i>
+            <h3>Health Monitoring Program</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi eaque ratione est magnam, quos odio quae modi error nulla sapiente.</p>
+        </div>
+        <div class="grid-card">
+            <i class="ri-hospital-line"></i>
+            <h3>Integrated Care Plan</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi eaque ratione est magnam, quos odio quae modi error nulla sapiente.</p>
+        </div>
+        <div class="grid-card">
+            <i class="ri-hospital-line"></i>
+            <h3>Preventive Health Services</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi eaque ratione est magnam, quos odio quae modi error nulla sapiente.</p>
+        </div>
+        <div class="grid-card">
+            <i class="ri-hospital-line"></i>
+            <h3>Holistic Health Management</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi eaque ratione est magnam, quos odio quae modi error nulla sapiente.</p>
+        </div>
+        <div class="grid-card">
+            <i class="ri-hospital-line"></i>
+            <h3>Recovery Center</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi eaque ratione est magnam, quos odio quae modi error nulla sapiente.</p>
+        </div>
+        <div class="grid-card">
+            <i class="ri-hospital-line"></i>
+            <h3>Telemedicine Consultation</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi eaque ratione est magnam, quos odio quae modi error nulla sapiente.</p>
+        </div>
+    </section>
+    
+    <section class="services section">
+        <div class="hero-content">
+            <p class="revolutionary">Revolutionary</p>
+            <h2>The services are designed to provide progress to your health.</h2>
+            <p>Our services are designed to support your overall health progress. We believe that health is a journey, and we are there to accompany you every step of the way to better health. With a holistic aproach and ongoing professional support, we help you achieve health goals.</p>
+            
+            <div class="hero-btn">
+                <button class="primary-btn">Book Now</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/checkup.jpeg" alt="Hero Image">
+        </div>
+    </section>
+    <section>
+        <!-- Yet to code this section -->
+    </section>
+
+    <section class="frequent-question section">
+        <div class="f-q-left">
+            <p class="revolutionary">Revolutionary</p>
+            <h2>Frequently asked question</h2>
+            <p>Contact us if you need immediate assistance.</p>
+        </div>
+        <div class="f-q-right">
+            
+            <details>
+                <summary>What services do you offer?</summary>
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa quam velit? Minima voluptas totam, magni nulla nobis impedit delectus atque tempora temporibus harum porro cupiditate! Excepturi vel sit aperiam!</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>How do I book an appointment?</summary>
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa quam velit? Minima voluptas totam, magni nulla nobis impedit delectus atque tempora temporibus harum porro cupiditate! Excepturi vel sit aperiam!</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>What can I expect during my first visit?</summary>
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa quam velit? Minima voluptas totam, magni nulla nobis impedit delectus atque tempora temporibus harum porro cupiditate! Excepturi vel sit aperiam!</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>How does the health monitoring program work?</summary>
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa quam velit? Minima voluptas totam, magni nulla nobis impedit delectus atque tempora temporibus harum porro cupiditate! Excepturi vel sit aperiam!</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>What is an integrated care plan?</summary>
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa quam velit? Minima voluptas totam, magni nulla nobis impedit delectus atque tempora temporibus harum porro cupiditate! Excepturi vel sit aperiam!</p></li>
+                </ul>
+            </details>
+        </div>
+    </section>
+
+    <section class="subscribe section">
+        <div>
+            <p class="newsletter-title">Get Our Updates</p>
+            <p class="newsletter-details">Subscribe to our newsletter for the latest news and updates</p>
+        </div>
+        <div class="subscribe-btn">
+            <input type="email" placeholder="Enter your email"><button class="submit-btn">Submit</button>
+        </div>
+    </section>
+
+    <footer class=" footer section">
+        <div class="footer-first-child">
+            <div class="footer-grid-item">
+                <img class="logo" src="images/white logo.png" alt="">
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-head">About Us</p>
+                <p class="footer-details">Contact</p>
+                <p class="footer-details">FAQ</p>
+                <p class="footer-details">Support</p>
+                <p class="footer-details">Blog</p>
+                <p class="footer-details">Services</p>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-head">Partners</p>
+                <p class="footer-details">Resources</p>
+                <p class="footer-details">Events</p>
+                <p class="footer-details">Careers</p>
+                <p class="footer-details">Press</p>
+                <p class="footer-details">Policies</p>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-head">Terms</p>
+                <p class="footer-details">Privacy</p>
+                <p class="footer-details">Cockies</p>
+                <p class="footer-details">Communities</p>
+                <p class="footer-details">Social media</p>
+                <p class="footer-details">Our newsletter</p>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-head">Stay connected</p>
+                <p class="footer-details">Facebook</p>
+                <p class="footer-details">Twitter</p>
+                <p class="footer-details">Instagram</p>
+                <p class="footer-details">LinkedIn</p>
+                <p class="footer-details">YouTube</p>
+            </div>
+            <div class="footer-grid-item">
+                <p class="footer-head">Pinterest</p>
+                <p class="footer-details">Join mailing list</p>
+                <p class="footer-details">Get exclusive offers</p>
+                <p class="footer-details">Sign up for updates</p>
+                <p class="footer-details">Receive our newsletter</p>
+                <p class="footer-details">Informed with our emails</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-second-child section">
+        <p class="footer-details">&copy2023 All rights reserved</p>
+        <div class="">
+            <p class="footer-details">Privacy Policy</p>
+            <p class="footer-details">Terms of Service</p>
+            <p class="footer-details">Cookie Policy</p>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const toggles = document.querySelectorAll('.dropdown-toggle');
+
+        toggles.forEach(toggle => {
+            toggle.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent link navigation
+            const dropdown = this.nextElementSibling;
+
+            // Close other open dropdowns
+            document.querySelectorAll('.dropdown').forEach(menu => {
+                if (menu !== dropdown) menu.style.display = 'none';
+            });
+
+            // Toggle the clicked dropdown
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+
+        // Optional: Click outside to close
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.has-dropdown')) {
+            document.querySelectorAll('.dropdown').forEach(menu => {
+                menu.style.display = 'none';
+            });
+            }
+        });
+        });
+
+        <!-- hamburger menu -->
+        function toggleMenu() {
+            document.querySelector('.navlinks').classList.toggle('active');
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
