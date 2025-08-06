@@ -479,7 +479,7 @@ input {
     }
     .user .dropdown {
         width: unset;
-        right: 0;
+        top: 44px;
     }
     .frequent-question,
     .services,
