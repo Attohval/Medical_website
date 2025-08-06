@@ -81,8 +81,8 @@ header {
     width: fit-content;
     display: none;
     position: absolute;
-    top: 44px;
-    right: 60px;
+    top: 24px;
+    right: 0;
     padding: 20px 40px;
     background-color: #ffffff;
     text-align: left;
