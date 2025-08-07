@@ -98,9 +98,6 @@ header {
 li:hover > .dropdown {
     display: block;
 }
-.user {
-    display: none;
-}
 .ri-user-fill {
     color: #ffffff;
     background-color: #007bff;
@@ -108,20 +105,15 @@ li:hover > .dropdown {
     border-radius: 50%;
     /* width: 5px; */
 }
-.user .dropdown li {
-    padding: 10px;
-}
-.user .primary-btn,
-.user .secondary-btn {
-    width: 90px;
-}
 .menu-toggle {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: bold;
     display: none;
     cursor: pointer;
 }
-
+.auth-btn-mobile {
+    display: none;
+}
 
 
 /* hero styling */
@@ -416,13 +408,7 @@ input {
         padding: 16px 20px 64px;
     }
     h1 {
-        font-size: 31px;
-    }
-    .auth-buttons {
-        display: none;
-    }
-    .user {
-        display: unset;
+        font-size: 29px;
     }
     .hero-image {
         max-width: 350px;
@@ -451,11 +437,7 @@ input {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-@media (max-width: 768px) {
-    h2 {
-        font-size: 22px;
-    }
+@media (max-width: 860px){
     .menu-toggle {
         display: block;
     }
@@ -474,12 +456,23 @@ input {
     .navlinks.active {
         display: flex;
     }
+    .auth-btn-mobile {
+        display: unset;
+    }
+    .user {
+        display: none;
+    }
+    .logo {
+        order: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 22px;
+    }
     .dropdown {
         width: 100%;
-    }
-    .user .dropdown {
-        width: unset;
-        top: 44px;
     }
     .frequent-question,
     .services,
